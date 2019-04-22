@@ -44,7 +44,7 @@
 This project is intended to practice and demonstrate the use of Node.js from the command line. It makes use of the https request to get the current weather data from [Open Weather Map](https://openweathermap.org/api).
 
 ### Built With
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+
 * JavaScript
 * Node.js
 
@@ -98,7 +98,7 @@ node app.js 'Houston'
 
 Searching multiple locations and combining queries
 ```sh
-node app.js 77433 'Houston' 'Waukesha' 99507 'New Orleans' 
+node app.js 77433 'Houston' 'Waukesha' 99507 'New Orleans'
 ```
 
 
@@ -140,4 +140,4 @@ Project Link: [https://github.com/othneildrew/node-weather-app](https://github.c
 [license-url]: https://github.com/othneildrew/node-weather-app/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: 
+[product-screenshot]: ./node-weather-app.png
