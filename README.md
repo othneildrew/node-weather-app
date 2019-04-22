@@ -91,14 +91,14 @@ Searching by zip code:
 node app.js 77433
 ```
 
-Searching by city
+Searching by city, be sure to wrap city in single or double quotes for multi-word cities:
 ```sh
-node app.js 'Houston'
+node app.js 'New Orleans'
 ```
 
 Searching multiple locations and combining queries
 ```sh
-node app.js 77433 'Houston' 'Waukesha' 99507 'New Orleans'
+node app.js 77433 Houston Waukesha 99507 'New York'
 ```
 
 
