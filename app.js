@@ -2,15 +2,20 @@
 
 const weather = require('./weather.js');
 const colors = require('colors');
-
-
 let query = process.argv.slice(2);
 
-//console.log(query);
 
-//console.log(typeof query);
+
+function getQueryType (query) {
+  if ((/(^[0-9]{1,}$)/gi).test(query)) {
+    return 'zip';
+  } else {
+    return 'city';
+  }
+}
+
+
 
 query.forEach(function (val, index, array) {
-  weather.current(val);
-
+  weather.current(val, getQueryType(val));
 });
