@@ -34,10 +34,10 @@ function current (location) {
 
           let string = `\t${json.name} \t ${json.weather[0].description} \t  ${Math.round(json.main.temp)}F`;
 
-          console.log(string.toUpperCase());
+          console.log(string.toUpperCase().bgWhite.black);
 
         } else {
-          console.error(json.message);
+          console.error(json.message.red);
         }
 
 
@@ -54,7 +54,7 @@ function current (location) {
 
   } catch (error) {
 
-    console.error(error.message);
+    console.error(error.message.red);
 
   }
 }

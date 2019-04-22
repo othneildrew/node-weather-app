@@ -1,6 +1,7 @@
 "use strict";
 
 const weather = require('./weather.js');
+const colors = require('colors');
 
 
 let query = process.argv.slice(2);
