@@ -128,7 +128,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Othneil Drew - [LinkedIn](https://linkedin.com/in/othneildrew) - codeguydrew@gmail.com
 
-Project Link: [https://github.com/othneildrew/node-weather-app](https://github.com/othneildrew/node-weather-app
+Project Link: [https://github.com/othneildrew/node-weather-app](https://github.com/othneildrew/node-weather-app)
 
 
 
