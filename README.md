@@ -74,7 +74,7 @@ git clone https:://github.com/othneildrew/node-weather-app.git
 ```sh
 npm install
 ```
-4. Enter your API in `app.json`
+4. Enter your API in `api.json`
 ```JS
 {
   "key": "OPEN_WEATHER_MAP_API_KEY_HERE";
